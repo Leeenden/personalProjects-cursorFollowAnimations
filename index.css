@@ -72,7 +72,7 @@ span {
 /* ======================== */
 /* #heart animation */
 /* ======================== */
-/* span::before {
+span::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -80,7 +80,7 @@ span {
     background: url(./images/heart.png);
     background-size: cover;
     animation: moveShape 1s linear infinite;
-} */
+}
 
 /* ======================== */
 /* #leaf animation 

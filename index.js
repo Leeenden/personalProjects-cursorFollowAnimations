@@ -5,27 +5,27 @@
 // ======================== 
 // #bubble animation script 
 // ========================
-document.addEventListener("mousemove", function(e){
-    let body = document.querySelector("body");
-    let bubble = document.createElement("span");
-    let x = e.offsetX;
-    let y = e.offsetY;
-    bubble.style.left = x+"px";
-    bubble.style.top = y+"px";
+// document.addEventListener("mousemove", function(e){
+//     let body = document.querySelector("body");
+//     let bubble = document.createElement("span");
+//     let x = e.offsetX;
+//     let y = e.offsetY;
+//     bubble.style.left = x+"px";
+//     bubble.style.top = y+"px";
 
-    let size = Math.random() * 80;
-    bubble.style.width = 20 + size+"px";
-    bubble.style.height = 20 + size+"px";
+//     let size = Math.random() * 80;
+//     bubble.style.width = 20 + size+"px";
+//     bubble.style.height = 20 + size+"px";
 
-    let transformValue = Math.random() * 360;
-    bubble.style.transform = "rotate("+ transformValue +"deg)";
-    body.appendChild(bubble);
+//     let transformValue = Math.random() * 360;
+//     bubble.style.transform = "rotate("+ transformValue +"deg)";
+//     body.appendChild(bubble);
 
-    setTimeout(function(){
-        bubble.remove();
-    },1000)
+//     setTimeout(function(){
+//         bubble.remove();
+//     },1000)
 
-});
+// });
 
 // ======================== 
 // #earth animation script
@@ -52,7 +52,7 @@ document.addEventListener("mousemove", function(e){
 
 // });
 
-/* ======================== 
+// ======================== 
 // #fireball animation script
 // ========================
 // document.addEventListener("mousemove", function(e){
@@ -80,29 +80,30 @@ document.addEventListener("mousemove", function(e){
 // ========================
 // #heart animation script
 // ========================
-// document.addEventListener("mousemove", function(e){
-//     let body = document.querySelector("body");
-//     let heart = document.createElement("span");
-//     let x = e.offsetX;
-//     let y = e.offsetY;
-//     heart.style.left = x+"px";
-//     heart.style.top = y+"px";
 
-//     let size = Math.random() * 80;
-//     heart.style.width = 20 + size+"px";
-//     heart.style.height = 20 + size+"px";
+document.addEventListener("mousemove", function(e){
+    let body = document.querySelector("body");
+    let heart = document.createElement("span");
+    let x = e.offsetX;
+    let y = e.offsetY;
+    heart.style.left = x+"px";
+    heart.style.top = y+"px";
 
-//     let transformValue = Math.random() * 360;
-//     heart.style.transform = "rotate("+ transformValue +"deg)";
-//     body.appendChild(heart);
+    let size = Math.random() * 80;
+    heart.style.width = 20 + size+"px";
+    heart.style.height = 20 + size+"px";
 
-//     setTimeout(function(){
-//         heart.remove();
-//     },1000)
+    let transformValue = Math.random() * 360;
+    heart.style.transform = "rotate("+ transformValue +"deg)";
+    body.appendChild(heart);
 
-// });
+    setTimeout(function(){
+        heart.remove();
+    },1000)
 
-/* ======================== 
+});
+
+// ======================== 
 // #leaf animation script
 // ========================
 // document.addEventListener("mousemove", function(e){
